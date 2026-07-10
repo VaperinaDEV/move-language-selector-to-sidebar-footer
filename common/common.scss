@@ -1,6 +1,6 @@
-html:not(.anon) {
-  .d-header-icons {
-    .language-switcher-trigger {
+.d-header-icons {
+  .language-switcher-trigger {
+    body:not(.show-header-language-selector) & {
       display: none;
     }
   }
